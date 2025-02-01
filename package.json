@@ -1,5 +1,5 @@
 {
-  "name": "http-capacito-custom-plugin",
+  "name": "http-capacitor-custom-plugin",
   "version": "1.0.0",
   "description": "Custom fetch for capacitor",
   "main": "rollup.config.js",
