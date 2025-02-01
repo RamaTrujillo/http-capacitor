@@ -137,7 +137,7 @@ public class Http extends Plugin {
 
             if (
                 !FilesystemUtils.isPublicDirectory(fileDirectory) ||
-                isStoragePermissionGranted(call, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                // isStoragePermissionGranted(call, Manifest.permission.WRITE_EXTERNAL_STORAGE)
             ) {
                 call.release(bridge);
 
@@ -184,7 +184,7 @@ public class Http extends Plugin {
 
             if (
                 !FilesystemUtils.isPublicDirectory(fileDirectory) ||
-                isStoragePermissionGranted(call, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                // isStoragePermissionGranted(call, Manifest.permission.WRITE_EXTERNAL_STORAGE)
             ) {
                 call.release(bridge);
                 JSObject response = HttpRequestHandler.uploadFile(call, getContext());
