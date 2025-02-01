@@ -1,13 +1,10 @@
 {
   "name": "http-capacitor-custom-plugin",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Custom fetch for capacitor (fork of CapacitorCommunityHttp)",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
-  "directories": {
-    "example": "example"
-  },
   "files": [
     "dist/",
     "ios/",
