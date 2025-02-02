@@ -136,7 +136,7 @@ public class Http extends Plugin {
             String fileDirectory = call.getString("fileDirectory", FilesystemUtils.DIRECTORY_DOCUMENTS);
 
             if (
-                !FilesystemUtils.isPublicDirectory(fileDirectory) ||
+                !FilesystemUtils.isPublicDirectory(fileDirectory)
                 // isStoragePermissionGranted(call, Manifest.permission.WRITE_EXTERNAL_STORAGE)
             ) {
                 call.release(bridge);
@@ -183,7 +183,7 @@ public class Http extends Plugin {
             bridge.saveCall(call);
 
             if (
-                !FilesystemUtils.isPublicDirectory(fileDirectory) ||
+                !FilesystemUtils.isPublicDirectory(fileDirectory)
                 // isStoragePermissionGranted(call, Manifest.permission.WRITE_EXTERNAL_STORAGE)
             ) {
                 call.release(bridge);
