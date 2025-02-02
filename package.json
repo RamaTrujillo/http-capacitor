@@ -1,6 +1,6 @@
 {
   "name": "http-capacitor-custom-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Custom fetch for capacitor (fork of CapacitorCommunityHttp)",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -21,14 +21,13 @@
     }
   },
   "dependencies": {
-    "@capacitor/android": "^7.0.1",
-    "@capacitor/core": "^7.0.1",
-    "@capacitor/filesystem": "^7.0.0",
-    "@capacitor/ios": "^7.0.1"
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
   },
   "devDependencies": {
     "@ionic/prettier-config": "^1.0.1",
-    "all-contributors-cli": "^6.20.0",
     "husky": "^6.0.0",
     "prettier": "^2.3.0",
     "prettier-plugin-java": "^1.1.1",
